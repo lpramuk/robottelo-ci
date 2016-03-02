@@ -58,6 +58,10 @@
             name: CLEANUP_SATELLITE_ORGS
             default: false
         - string:
+            name: OS_UPGRADE_REPO
+            description: |
+                Upgrade OS using this repo URL (typically OS candidate repo).  
+        - string:
             name: BUILD_LABEL
         - string:
             name: ROBOTTELO_WORKERS
